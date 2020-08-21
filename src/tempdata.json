@@ -1,0 +1,801 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0335715,
+        "lng": 121.5649428
+      },
+      "viewport": {
+        "south": 25.0321694697085,
+        "west": 121.5637257697085,
+        "north": 25.0348674302915,
+        "east": 121.5664237302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "隨意鳥地方101景觀餐廳-求婚 生日 尾牙 婚宴 觀景夜景牛排餐廳推薦-",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 310,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/116694854539078077766\">隨意鳥地方101景觀餐廳-求婚 生日 尾牙 婚宴 觀景夜景牛排餐廳推薦-</a>"],
+        "width": 550
+      }
+    ],
+    "place_id": "ChIJ1S3Z6barQjQRUnd4BwJ6NkY",
+    "plus_code": {
+      "compound_code": "2HM7+CX 台灣台北市信義區",
+      "global_code": "7QQ32HM7+CX"
+    },
+    "rating": 4.1,
+    "reference": "ChIJ1S3Z6barQjQRUnd4BwJ6NkY",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 2174,
+    "vicinity": "信義區信義路五段7號85F",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.036033,
+        "lng": 121.5671968
+      },
+      "viewport": {
+        "south": 25.0345818197085,
+        "west": 121.5658498197085,
+        "north": 25.0372797802915,
+        "east": 121.5685477802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "欣葉 日本料理 信義新天地A11",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2322,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105008162898951270707\">dong wook bang</a>"],
+        "width": 4128
+      }
+    ],
+    "place_id": "ChIJPxnPnrCrQjQRmEwUNrIViu0",
+    "plus_code": {
+      "compound_code": "2HP8+CV 台灣台北市信義區",
+      "global_code": "7QQ32HP8+CV"
+    },
+    "price_level": 3,
+    "rating": 4.1,
+    "reference": "ChIJPxnPnrCrQjQRmEwUNrIViu0",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 3313,
+    "vicinity": "信義區松壽路11號5樓",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0355475,
+        "lng": 121.5678114
+      },
+      "viewport": {
+        "south": 25.0343424197085,
+        "west": 121.5664619697085,
+        "north": 25.0370403802915,
+        "east": 121.5691599302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Mo-Mo-Paradise 台北Neo19牧場",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3096,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/103748703721359594655\">Joseph Yang</a>"],
+        "width": 5504
+      }
+    ],
+    "place_id": "ChIJTW0EhbCrQjQRbXvETrjnOJI",
+    "plus_code": {
+      "compound_code": "2HP9+64 台灣台北市信義區",
+      "global_code": "7QQ32HP9+64"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJTW0EhbCrQjQRbXvETrjnOJI",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 758,
+    "vicinity": "信義區松壽路22號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.036619,
+        "lng": 121.566757
+      },
+      "viewport": {
+        "south": 25.0352634697085,
+        "west": 121.5652340697085,
+        "north": 25.0379614302915,
+        "east": 121.5679320302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "PAUL 法國保羅麵包新光三越信義A9店 - 早午餐 下午茶 蛋糕 法式甜點 健康輕食 千層派 咖啡店",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1178,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107909807900410503481\">PAUL 法國保羅麵包新光三越信義A9店 - 早午餐 下午茶 蛋糕 法式甜點 健康輕食 千層派 咖啡店</a>"
+        ],
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJ5_GyFLqrQjQRsflOXWI1MQI",
+    "plus_code": {
+      "compound_code": "2HP8+JP 台灣台北市信義區",
+      "global_code": "7QQ32HP8+JP"
+    },
+    "price_level": 3,
+    "rating": 4.3,
+    "reference": "ChIJ5_GyFLqrQjQRsflOXWI1MQI",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "bakery", "cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 809,
+    "vicinity": "2f, No. 9號, 松壽路, 信義區",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0355031,
+        "lng": 121.56786
+      },
+      "viewport": {
+        "south": 25.03432026970849,
+        "west": 121.5665105197085,
+        "north": 25.0370182302915,
+        "east": 121.5692084802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "馬辣頂級麻辣鴛鴦火鍋-信義店",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1371,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/113453363120260166376\">馬辣頂級麻辣鴛鴦鍋-信義店</a>"],
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJ9cRPhLCrQjQRqMgpsbFekQE",
+    "plus_code": {
+      "compound_code": "2HP9+64 台灣台北市信義區",
+      "global_code": "7QQ32HP9+64"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "reference": "ChIJ9cRPhLCrQjQRqMgpsbFekQE",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 2377,
+    "vicinity": "3 No. 22號, 松壽路, 信義區",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.03547799999999,
+        "lng": 121.5692621
+      },
+      "viewport": {
+        "south": 25.03413266970849,
+        "west": 121.5674971197085,
+        "north": 25.0368306302915,
+        "east": 121.5701950802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "勞瑞斯牛肋排餐廳",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 2448,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/103660954938130975886\">姜博升</a>"],
+        "width": 2448
+      }
+    ],
+    "place_id": "ChIJjwfWf7CrQjQR8HEILkaBigk",
+    "plus_code": {
+      "compound_code": "2HP9+5P 台灣台北市信義區",
+      "global_code": "7QQ32HP9+5P"
+    },
+    "price_level": 4,
+    "rating": 4.3,
+    "reference": "ChIJjwfWf7CrQjQR8HEILkaBigk",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 1588,
+    "vicinity": "信義區松仁路105號B1",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0335359,
+        "lng": 121.5648114
+      },
+      "viewport": {
+        "south": 25.0321516697085,
+        "west": 121.5636600697085,
+        "north": 25.0348496302915,
+        "east": 121.5663580302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "頂鮮台南擔仔麵 台北101店 (DingXian Taipei)",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3280,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/111120254757926803878\">頂鮮台南擔仔麵 台北101店 (DingXian Taipei)</a>"],
+        "width": 4928
+      }
+    ],
+    "place_id": "ChIJa4ipyLarQjQR0v7c3XyhKoc",
+    "plus_code": {
+      "compound_code": "2HM7+CW 台灣台北市信義區",
+      "global_code": "7QQ32HM7+CW"
+    },
+    "price_level": 4,
+    "rating": 4.5,
+    "reference": "ChIJa4ipyLarQjQR0v7c3XyhKoc",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 2308,
+    "vicinity": "信義區信義路五段7號 台北10186F",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.03684729999999,
+        "lng": 121.5615992
+      },
+      "viewport": {
+        "south": 25.03547946970849,
+        "west": 121.5602857197085,
+        "north": 25.0381774302915,
+        "east": 121.5629836802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "馬友友印度廚房 Mayur Indian Kitchen, MIK-1",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1728,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/107501152047366813262\">馬友友印度廚房 Mayur Indian Kitchen, MIK-1</a>"],
+        "width": 2592
+      }
+    ],
+    "place_id": "ChIJ2Tb8kberQjQR6VzLwafa4jI",
+    "plus_code": {
+      "compound_code": "2HP6+PJ 台灣台北市信義區",
+      "global_code": "7QQ32HP6+PJ"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJ2Tb8kberQjQR6VzLwafa4jI",
+    "scope": "GOOGLE",
+    "types": ["meal_delivery", "restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 766,
+    "vicinity": "信義區基隆路一段350-5號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0312905,
+        "lng": 121.5617918
+      },
+      "viewport": {
+        "south": 25.03031551970849,
+        "west": 121.5604646697085,
+        "north": 25.0330134802915,
+        "east": 121.5631626302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "好丘Good cho's 信義店",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3136,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/117081070814323242714\">阿傑</a>"],
+        "width": 4224
+      }
+    ],
+    "place_id": "ChIJUztrxbWrQjQRGsdUosiD8LQ",
+    "plus_code": {
+      "compound_code": "2HJ6+GP 台灣台北市信義區",
+      "global_code": "7QQ32HJ6+GP"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJUztrxbWrQjQRGsdUosiD8LQ",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "bakery", "cafe", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 1670,
+    "vicinity": "信義區松勤街54號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0354933,
+        "lng": 121.5660115
+      },
+      "viewport": {
+        "south": 25.0343285697085,
+        "west": 121.5646684697085,
+        "north": 25.03702653029151,
+        "east": 121.5673664302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "the Chips 美式餐廳 (光復店)",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1908,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/115598155901340133453\">Shis-Kai Chou</a>"],
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJHd7EPMarQjQRNjXqec_9Cys",
+    "plus_code": {
+      "compound_code": "2HP8+5C 台灣台北市信義區",
+      "global_code": "7QQ32HP8+5C"
+    },
+    "price_level": 2,
+    "rating": 3.8,
+    "reference": "ChIJHd7EPMarQjQRNjXqec_9Cys",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "store", "establishment"],
+    "user_ratings_total": 800,
+    "vicinity": "信義區松壽路12號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0355586,
+        "lng": 121.5677642
+      },
+      "viewport": {
+        "south": 25.03434786970849,
+        "west": 121.5664148197085,
+        "north": 25.0370458302915,
+        "east": 121.5691127802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "Chili's Grill & Bar美式休閒餐廳-信義店 (Xinyi)",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4160,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/102240205288608209932\">KENKEN Chen</a>"],
+        "width": 3120
+      }
+    ],
+    "place_id": "ChIJQXbIZXepQjQRMpdVuxgB-f8",
+    "plus_code": {
+      "compound_code": "2HP9+64 台灣台北市信義區",
+      "global_code": "7QQ32HP9+64"
+    },
+    "rating": 4.4,
+    "reference": "ChIJQXbIZXepQjQRMpdVuxgB-f8",
+    "scope": "GOOGLE",
+    "types": ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 1176,
+    "vicinity": "信義區松壽路22號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0354409,
+        "lng": 121.5673083
+      },
+      "viewport": {
+        "south": 25.0342865697085,
+        "west": 121.5659555697085,
+        "north": 25.03698453029151,
+        "east": 121.5686535302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "BELLINI Pasta Pasta 台北信義威秀店",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1327,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105010787004487697920\">Vinny Wu</a>"],
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJH3SPl7CrQjQRaflQ7dF8dek",
+    "plus_code": {
+      "compound_code": "2HP8+5W 台灣台北市信義區",
+      "global_code": "7QQ32HP8+5W"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJH3SPl7CrQjQRaflQ7dF8dek",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 647,
+    "vicinity": "2f, No. 20號, 松壽路, 信義區",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0351495,
+        "lng": 121.5670883
+      },
+      "viewport": {
+        "south": 25.0341390697085,
+        "west": 121.5657327697085,
+        "north": 25.0368370302915,
+        "east": 121.5684307302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "燒丼株式會社",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/111709431453778983547\">Ryan Mo</a>"],
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJH3SPl7CrQjQRyTODuYSxOy0",
+    "plus_code": {
+      "compound_code": "2HP8+3R 台灣台北市信義區",
+      "global_code": "7QQ32HP8+3R"
+    },
+    "price_level": 2,
+    "rating": 3.7,
+    "reference": "ChIJH3SPl7CrQjQRyTODuYSxOy0",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 552,
+    "vicinity": "信義區松壽路20號2樓",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.03667059999999,
+        "lng": 121.5667018
+      },
+      "viewport": {
+        "south": 25.03531586970849,
+        "west": 121.5652052697085,
+        "north": 25.0380138302915,
+        "east": 121.5679032302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "欣葉台菜 信義新天地A9",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 900,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/110448645805060925909\">欣葉台菜 信義新天地A9</a>"],
+        "width": 1409
+      }
+    ],
+    "place_id": "ChIJrSZypLCrQjQRdNWuZqKdwqM",
+    "plus_code": {
+      "compound_code": "2HP8+MM 台灣台北市信義區",
+      "global_code": "7QQ32HP8+MM"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "reference": "ChIJrSZypLCrQjQRdNWuZqKdwqM",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 1077,
+    "vicinity": "信義區松壽路9號8樓",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.037228,
+        "lng": 121.561034
+      },
+      "viewport": {
+        "south": 25.0360036197085,
+        "west": 121.5596897697085,
+        "north": 25.03870158029151,
+        "east": 121.5623877302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "都一處 仁愛店",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 375,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/114712944222084375975\">都一處 仁愛店</a>"],
+        "width": 375
+      }
+    ],
+    "place_id": "ChIJvctP8rerQjQRGfwXMTJiCt4",
+    "plus_code": {
+      "compound_code": "2HP6+VC 台灣台北市信義區",
+      "global_code": "7QQ32HP6+VC"
+    },
+    "price_level": 3,
+    "rating": 4,
+    "reference": "ChIJvctP8rerQjQRGfwXMTJiCt4",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 1508,
+    "vicinity": "信義區仁愛路四段506號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0355031,
+        "lng": 121.56786
+      },
+      "viewport": {
+        "south": 25.03432026970849,
+        "west": 121.5665105197085,
+        "north": 25.0370182302915,
+        "east": 121.5692084802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "非常泰",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/106381339341849288774\">Pira</a>"],
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJj9lPhLCrQjQRJeduZ4avFRU",
+    "plus_code": {
+      "compound_code": "2HP9+64 台灣台北市信義區",
+      "global_code": "7QQ32HP9+64"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "reference": "ChIJj9lPhLCrQjQRJeduZ4avFRU",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 681,
+    "vicinity": "信義區松壽路22號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0383589,
+        "lng": 121.5666138
+      },
+      "viewport": {
+        "south": 25.0370117197085,
+        "west": 121.5651831197085,
+        "north": 25.0397096802915,
+        "east": 121.5678810802915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "丸龜製麵（新光A8）",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/105985998501765347614\">Kh Yeh</a>"],
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJoX9YNLqrQjQR-MWv7zDgkN8",
+    "plus_code": {
+      "compound_code": "2HQ8+8J 台灣台北市信義區",
+      "global_code": "7QQ32HQ8+8J"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "reference": "ChIJoX9YNLqrQjQR-MWv7zDgkN8",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 411,
+    "vicinity": "信義區松高路12號B2",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0360741,
+        "lng": 121.566574
+      },
+      "viewport": {
+        "south": 25.0346096697085,
+        "west": 121.5652175697085,
+        "north": 25.0373076302915,
+        "east": 121.5679155302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "兩班家韓式碳烤 新光三越A9店",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3456,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/108256479781760994112\">Allen Chien</a>"],
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJKSJypLCrQjQR4zs1EAIqa1c",
+    "plus_code": {
+      "compound_code": "2HP8+CJ 台灣台北市信義區",
+      "global_code": "7QQ32HP8+CJ"
+    },
+    "price_level": 3,
+    "rating": 3.6,
+    "reference": "ChIJKSJypLCrQjQR4zs1EAIqa1c",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 333,
+    "vicinity": "信義區松壽路9號6樓",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0381387,
+        "lng": 121.5681202
+      },
+      "viewport": {
+        "south": 25.03663196970849,
+        "west": 121.5668830697085,
+        "north": 25.0393299302915,
+        "east": 121.5695810302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "台北寒舍艾美酒店探索廚房",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2912,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/104198400596698937452\">探索廚房 - 台北寒舍艾美酒店</a>"],
+        "width": 4368
+      }
+    ],
+    "place_id": "ChIJewvXULqrQjQR6zpjEk5Nj0E",
+    "plus_code": {
+      "compound_code": "2HQ9+76 台灣台北市信義區",
+      "global_code": "7QQ32HQ9+76"
+    },
+    "price_level": 3,
+    "rating": 4,
+    "reference": "ChIJewvXULqrQjQR6zpjEk5Nj0E",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 4805,
+    "vicinity": "信義區松仁路38號",
+    "html_attributions": []
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 25.0334929,
+        "lng": 121.564101
+      },
+      "viewport": {
+        "south": 25.0320520197085,
+        "west": 121.5625863697085,
+        "north": 25.03474998029151,
+        "east": 121.5652843302915
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+    "name": "海壽司信義一店(101百貨)",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 960,
+        "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/104934678416740962375\">海壽司信義一店(101百貨)</a>"],
+        "width": 1280
+      }
+    ],
+    "place_id": "ChIJ1S3Z6barQjQRYswEOw3hXso",
+    "plus_code": {
+      "compound_code": "2HM7+9J 台灣台北市信義區",
+      "global_code": "7QQ32HM7+9J"
+    },
+    "rating": 3.4,
+    "reference": "ChIJ1S3Z6barQjQRYswEOw3hXso",
+    "scope": "GOOGLE",
+    "types": ["restaurant", "food", "point_of_interest", "establishment"],
+    "user_ratings_total": 140,
+    "vicinity": "信義區市府路45號",
+    "html_attributions": []
+  }
+]
