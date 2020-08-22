@@ -1,10 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useCallback } from 'react';
 import styled from 'styled-components';
 import SearchIcon from './image/material-search.svg';
 import Img from './image/material-restaurant.svg';
 import SearchlocationIcon from './image/iconfinder-searchmark.svg';
-import Card from './Card';
 import FilterIcon from './image/material-filter.svg';
+import InfoModal from './components/InfoModal';
+import HelpIcon from './image/material-help.svg';
+import PlaceInfo from './components/PlaceInfo';
+import NearSiteContext from './ContextApi/NearSiteContext';
 
 //----------CSS Style----------
 const Container = styled.div`
@@ -15,7 +18,8 @@ const Container = styled.div`
   color: #fff;
   padding: 3em;
   position: relative;
-  overflow-y: scroll;
+  overflow-y: hidden;
+  z-index: 1;
 
   &::before {
     content: '';
@@ -28,9 +32,16 @@ const Container = styled.div`
     width: 50%;
     height: 50%;
     filter: opacity(0.1);
+    z-index: -1;
   }
 `;
-
+const Help = styled.img`
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  width: 5%;
+`;
 const Title = styled.h1`
   font-size: 2rem;
   font-weight: 700;
@@ -78,12 +89,12 @@ const UserInput = styled.div`
   > button {
     cursor: pointer;
     position: absolute;
-    top: 20%;
+    top: 0;
     right: 0;
     background-color: transparent;
     border: none;
     width: 10%;
-    height: 60%;
+    height: 100%;
     &:active {
       outline: none;
     }
@@ -127,7 +138,6 @@ const Filter = styled.div`
       background-color: #2abf70;
       border-radius: 10px;
       color: #fff;
-      /* padding: 0.5em 1em 0 1em; */
       z-index: 1;
       font-weight: 700;
       font-size: 1rem;
@@ -148,7 +158,7 @@ const Filter = styled.div`
 `;
 
 //----------Change Default Icon----------
-// my location icon
+// My Location Icon
 const searchIcon = {
   url: SearchlocationIcon,
   scaledSize: new window.google.maps.Size(70, 70),
@@ -164,6 +174,7 @@ const Search = React.memo((props) => {
   const [searchLocation, setSearchLocation] = useState();
   const [searchMark, setSearchMark] = useState();
   const [filterState, setFilterState] = useState(false);
+  const [isHelp, setIsHelp] = useState(false);
 
   // add search place mark
   useEffect(() => {
@@ -215,12 +226,15 @@ const Search = React.memo((props) => {
   };
   return (
     <Container>
+      {console.log('search render')}
+      <Help src={HelpIcon} onClick={() => setIsHelp(!isHelp)} />
+      <InfoModal isHelp={isHelp} setIsHelp={setIsHelp} />
       <Title>餐廳搜尋</Title>
       <Form>
         <UserInput>
           <input ref={userInput} id="place" type="text" required />
           <label className="place-label" htmlFor="place">
-            請輸入地點
+            請輸入地址
           </label>
           <button onClick={SearchPlace} type="submit">
             <img src={SearchIcon} alt="error" />
@@ -236,7 +250,8 @@ const Search = React.memo((props) => {
           </ul>
         </button>
       </Filter>
-      {nearSite !== undefined && nearSite.map((elem, idx) => <Card key={idx} {...elem} />)}
+      {nearSite !== undefined && <PlaceInfo />}
+      <InfoModal />
     </Container>
   );
 });

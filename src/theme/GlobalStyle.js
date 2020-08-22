@@ -55,7 +55,6 @@ body,html{
   height:100%;
   font-size: calc(0.75rem + 1vmin);
   font-family: 'Noto Sans TC', sans-serif;
-	overflow-y:hidden;
 }
 
 *,*::before,*::after{

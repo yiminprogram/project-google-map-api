@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
-import Star from './image/iconfinder-star.svg';
+import Star from '../image/iconfinder-star.svg';
+import Error from '../image/material-error.svg';
+import NearSiteContext from '../ContextApi/NearSiteContext';
 
 //----------CSS Style----------
 const Container = styled.div`
@@ -29,7 +31,6 @@ const Container = styled.div`
 
   &:hover {
     background-color: #ffffff25;
-    transform: translate(-5%, -5%);
   }
 `;
 
@@ -47,15 +48,25 @@ const PlaceInfo = styled.div`
   }
 `;
 
-const Card = ({ name, rating, vicinity }) => {
+const Card = ({ data, isInfo, setIsInfo, setSiteInfo }) => {
+  const { setCardSite } = useContext(NearSiteContext);
+  const { name, rating, vicinity } = data;
+  const { lat, lng } = data.geometry.location;
   return (
-    <Container>
+    <Container
+      onClick={(e) => {
+        setIsInfo(!isInfo);
+        setSiteInfo(data);
+        setCardSite({ lat: lat(), lng: lng() });
+      }}
+    >
+      {console.log('render Card')}
       <PlaceInfo>
         <h2>{name}</h2>
         <p>{vicinity}</p>
       </PlaceInfo>
       <h2>{rating}</h2>
-      <img src={Star} alt="error" />
+      <img src={rating !== null ? Star : Error} alt="error" />
     </Container>
   );
 };

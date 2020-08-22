@@ -3,6 +3,7 @@ import MySite from './image/iconfinder-mylocation.svg';
 import RestaurantSite from './image/iconfinder-restaurant.svg';
 import Search from './Search';
 import styled from 'styled-components';
+import NearSiteContext from './ContextApi/NearSiteContext';
 
 //----------CSS Style----------
 const Container = styled.div`
@@ -20,12 +21,12 @@ const MapContainer = styled.div`
 `;
 
 //----------Change Default Icon----------
-// my location icon
+// My Location Icon
 const myIcon = {
   url: MySite,
   scaledSize: new window.google.maps.Size(70, 70),
 };
-// restaurant icon
+// Restaurant Icon
 const restaurantIcon = {
   url: RestaurantSite,
   scaledSize: new window.google.maps.Size(50, 50),
@@ -34,13 +35,15 @@ const restaurantIcon = {
 const Map = () => {
   //----------Ref----------
   const mapDiv = useRef();
-
+  const distancePanel = useRef();
   //----------State----------
   const [map, setMap] = useState();
   const [mySite, setMySite] = useState({ lat: 25.033951, lng: 121.564655 });
   const [nearSite, setNearSite] = useState();
   const [myMark, setmyMark] = useState();
   const [nearMark, setNearMark] = useState();
+  const [cardSite, setCardSite] = useState();
+  const [mapRender, setMapRender] = useState();
 
   // Initial Map
   useEffect(() => {
@@ -108,7 +111,7 @@ const Map = () => {
     // Set Request
     const request = {
       location: mySite,
-      radius: '600',
+      radius: '1000',
       type: ['restaurant'],
     };
     // Set Map Place Service
@@ -116,10 +119,41 @@ const Map = () => {
     service.nearbySearch(request, getRestaurantData);
   }, [map, mySite]);
 
+  // Show Distance
+  useEffect(() => {
+    const directionsRenderer = new window.google.maps.DirectionsRenderer();
+    const directionsService = new window.google.maps.DirectionsService();
+    if (map === undefined) return;
+    directionsRenderer.setMap(map);
+    directionsRenderer.setPanel(distancePanel.current);
+    setMapRender(directionsRenderer);
+    const calculateDistance = (directionsService, directionsRenderer) => {
+      directionsService.route(
+        {
+          origin: mySite,
+          destination: cardSite,
+          travelMode: window.google.maps.TravelMode.DRIVING,
+        },
+        (response, status) => {
+          if (status === 'OK') {
+            directionsRenderer.setDirections(response);
+          } else {
+            window.alert(`發生錯誤，原因為${status}`);
+          }
+        }
+      );
+    };
+    calculateDistance(directionsService, directionsRenderer);
+  }, [cardSite]);
   return (
     <Container>
+      {console.log('render map')}
       <MapContainer ref={mapDiv} />
-      {map !== undefined && <Search props={{ map, nearSite, setMySite, setNearSite }} />}
+      {map !== undefined && (
+        <NearSiteContext.Provider value={{ nearSite, setCardSite, distancePanel, mapRender }}>
+          <Search props={{ map, nearSite, setMySite, setNearSite }} />
+        </NearSiteContext.Provider>
+      )}
     </Container>
   );
 };
