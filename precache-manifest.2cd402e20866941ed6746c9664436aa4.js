@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21d3bd34d009c0870b7699cb40fa9684",
+    "revision": "237519f02ec51283ab287033c501277e",
     "url": "/project-google-map-api/index.html"
   },
   {
-    "revision": "ac7f67437a373c6aecc5",
-    "url": "/project-google-map-api/static/js/2.0d33a39f.chunk.js"
+    "revision": "73e83fda4be4474bb82a",
+    "url": "/project-google-map-api/static/js/2.ea9bc0bf.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/project-google-map-api/static/js/2.0d33a39f.chunk.js.LICENSE.txt"
+    "url": "/project-google-map-api/static/js/2.ea9bc0bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "434ff6ad64b70e04b42d",
-    "url": "/project-google-map-api/static/js/main.810e54e4.chunk.js"
+    "revision": "ed3095cc5eca9f12f939",
+    "url": "/project-google-map-api/static/js/main.e2b85245.chunk.js"
   },
   {
     "revision": "0b46c51e804c63cff6b8",
@@ -36,8 +36,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-google-map-api/static/media/iconfinder-star.403fcad3.svg"
   },
   {
+    "revision": "7e4304aaba4b532764bc2a2d2f1732fc",
+    "url": "/project-google-map-api/static/media/material-arrowback.7e4304aa.svg"
+  },
+  {
+    "revision": "668c22deb5d7d7526313935dca20aa10",
+    "url": "/project-google-map-api/static/media/material-close.668c22de.svg"
+  },
+  {
+    "revision": "886f60007f28a55f1123d7236aa6b3e5",
+    "url": "/project-google-map-api/static/media/material-error.886f6000.svg"
+  },
+  {
     "revision": "7647e852a4a206e6c53fadafaa7acf36",
     "url": "/project-google-map-api/static/media/material-filter.7647e852.svg"
+  },
+  {
+    "revision": "e86221ec96ec62ac6d4a275aae9f8f93",
+    "url": "/project-google-map-api/static/media/material-help.e86221ec.svg"
   },
   {
     "revision": "f535337630f5597056d1dd2272bcdf5a",
