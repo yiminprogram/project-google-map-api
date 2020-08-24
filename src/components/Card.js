@@ -60,7 +60,6 @@ const Card = ({ data, isInfo, setIsInfo, setSiteInfo }) => {
         setCardSite({ lat: lat(), lng: lng() });
       }}
     >
-      {console.log('render Card')}
       <PlaceInfo>
         <h2>{name}</h2>
         <p>{vicinity}</p>

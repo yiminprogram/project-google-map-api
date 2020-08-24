@@ -35,7 +35,6 @@ const PlaceInfo = () => {
   const { nearSite } = useContext(NearSiteContext);
   return (
     <Container>
-      {console.log('render placeinfo')}
       <CardList isInfo={isInfo}>
         {nearSite !== undefined && nearSite.map((elem, idx) => <Card key={elem.place_id} isInfo={isInfo} setIsInfo={setIsInfo} data={elem} setSiteInfo={setSiteInfo} />)}
       </CardList>

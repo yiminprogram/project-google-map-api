@@ -226,7 +226,6 @@ const Search = React.memo((props) => {
   };
   return (
     <Container>
-      {console.log('search render')}
       <Help src={HelpIcon} onClick={() => setIsHelp(!isHelp)} />
       <InfoModal isHelp={isHelp} setIsHelp={setIsHelp} />
       <Title>餐廳搜尋</Title>

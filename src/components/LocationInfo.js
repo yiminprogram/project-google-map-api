@@ -99,7 +99,6 @@ const LocationInfo = ({ isInfo, setIsInfo, siteInfo }) => {
   };
   return (
     <Container isInfo={isInfo}>
-      {console.log('render lcoation info')}
       <img src={Back} alt="error" onClick={pageBack} />
       <Information>
         <h1>{siteInfo.name}</h1>

@@ -147,7 +147,6 @@ const Map = () => {
   }, [cardSite]);
   return (
     <Container>
-      {console.log('render map')}
       <MapContainer ref={mapDiv} />
       {map !== undefined && (
         <NearSiteContext.Provider value={{ nearSite, setCardSite, distancePanel, mapRender }}>
