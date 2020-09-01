@@ -4,6 +4,7 @@ import { mapContext } from './ContextAPI';
 import Map from './Map';
 import Search from './Search';
 import ErrorBoundary from './Error/ErrorBoundary';
+import createMap, { getMySite, createMySiteMark, getNearSite, createNearSiteMark } from './GoogleMapAPI';
 import { mapReducer, ACTION, initialState } from './Reducer/MapReducer';
 
 // CSS Style
@@ -17,32 +18,36 @@ const Container = styled.div`
 const App = () => {
   const mapDiv = useRef();
   const [mapState, mapDispatch] = useReducer(mapReducer, initialState);
-  const { map } = mapState;
-
+  const { map, mySite, mySiteMark, nearSiteMark } = mapState;
   // Create Map Object
   useEffect(() => {
-    mapDispatch({ type: ACTION.CREATE_MAP, mapDiv: mapDiv });
+    const newMap = createMap(mySite, mapDiv.current);
+    mapDispatch({ type: ACTION.MAP, payload: newMap });
+    const newMySiteMark = createMySiteMark(newMap, mySite);
+    mapDispatch({ type: ACTION.MY_SITE_MARK, payload: newMySiteMark });
   }, []);
 
-  // Map Drag Event
   useEffect(() => {
     if (map === null) return;
     map.addListener('dragend', () => {
-      const site = { lat: map.getCenter().lat(), lng: map.getCenter().lng() };
-      mapDispatch({ type: ACTION.UPDATE_SITE_AND_MARK, site: site });
+      mapDispatch({ type: ACTION.CLEAN_ALL_MARK });
+      const newMysite = getMySite(map);
+      mapDispatch({ type: ACTION.MY_SITE, payload: newMysite });
+      const newMySiteMark = createMySiteMark(map, newMysite);
+      mapDispatch({ type: ACTION.MY_SITE_MARK, payload: newMySiteMark });
+      const newNearSite = getNearSite(map, newMysite);
+      mapDispatch({ type: ACTION.NEAR_SITE, payload: newNearSite });
+      console.log(newNearSite);
+      // const newNearSiteMark = createNearSiteMark(map, newNearSite);
+      // mapDispatch({ type: ACTION.NEAR_SITE_MARK, payload: newNearSiteMark });
     });
   }, [map]);
-
-  // Update My Site Mark
-  // useEffect(() => {
-  //   mapDispatch({ type: ACTION.CREATE_MY_MARK });
-  // }, [mySite]);
 
   return (
     <ErrorBoundary>
       {console.log('app render')}
       <Container>
-        <mapContext.Provider value={mapDispatch}>
+        <mapContext.Provider>
           <Map mapDiv={mapDiv} />
           <Search />
         </mapContext.Provider>
